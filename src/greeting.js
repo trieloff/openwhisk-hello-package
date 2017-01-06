@@ -6,6 +6,6 @@
  */
 function main(params) {
     var name = params.name || params.payload || 'stranger';
-    var place = params.place || 'somewhere';
-    return {payload:  'Hello, ' + name + ' from ' + place + ' !'};
+    var place = params.place || 'the internet';
+    return {payload:  'Hello, ' + name + ' from ' + place + '!'};
 }
