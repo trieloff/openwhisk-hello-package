@@ -5,7 +5,7 @@
  * @param place Where the person is from.
  */
 function main(params) {
-    var name = params.name || params.payload || 'stranger';
+    var name = params.name || params.payload || 'friend';
     var place = params.place || 'the internet';
     return {payload:  'Hello, ' + name + ' from ' + place + '!'};
 }
