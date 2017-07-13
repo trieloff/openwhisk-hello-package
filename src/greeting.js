@@ -7,5 +7,5 @@
 function main(params) {
     var name = params.name || params.payload || 'buddy';
     var place = params.place || 'the internet';
-    return {payload:  'Hello, ' + name + ' from ' + place + '!'};
+    return {payload:  'Herzlich Willkommen, ' + name + ' aus ' + place + '!'};
 }
