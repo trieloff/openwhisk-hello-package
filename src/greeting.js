@@ -7,5 +7,5 @@
 function main(params) {
     var name = params.name || params.payload || 'Typ';
     var place = params.place || 'dem Internet';
-    return {payload:  'Guten Tag, ' + name + ' aus ' + place + '!'};
+    return {payload:  'Guten Morgen, ' + name + ' aus ' + place + '!'};
 }
